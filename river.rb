@@ -11,4 +11,10 @@ class River
     @fish_in_river.pop
   end
 
+  def river_fish_count
+    return @fish_in_river.count
+  end
+
+  
+
 end
