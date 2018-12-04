@@ -7,4 +7,8 @@ class River
     @fish_in_river = fish_in_river
   end
 
+  def remove_fish_from_river
+    @fish_in_river.pop
+  end
+
 end
